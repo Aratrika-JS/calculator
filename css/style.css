@@ -1,0 +1,39 @@
+
+body{
+    background: #ddd6f3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #faaca8, #ddd6f3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #faaca8, #ddd6f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.calculator
+{
+    margin: 40px 30% auto 35%;
+
+}
+#screen
+{
+   font-size: 30px;
+   border-radius: 30px;
+   border: 0px;
+
+}
+button
+{
+   font-size: 20px;
+   height: 40px;
+   width: 74px;
+   margin: 5px 5px 5px 5px;
+   background-color: #faaca8;
+   border: 0px;
+   border-radius: 20px;
+}
+#button{
+    margin: 0px;
+    font-size: 15px;
+    font-weight: bold;
+    transform: translate(-60%,-10%);
+    border-radius: 30px;
+    background-color: #faaca8;
+    color: white;
+    border: 0px;
+}
